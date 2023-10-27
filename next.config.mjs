@@ -8,11 +8,15 @@ const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'], 
 }
 
+
 const withMDX = nextMDX({
   extension: /\.mdx?$/,
   options: {
     remarkPlugins: [remarkGfm],
     rehypePlugins: [rehypePrism],
+  },
+  images: {
+    unoptimized: true,
   },
 })
 
