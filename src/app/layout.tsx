@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       'Justin Jones',
   },
   description:
-    'I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.',
+    'I’m Justin, a Technical Product Manager, and Travel sector enthusiast. I’m based in Grapevine, Texas where I live with my wife, 2 boys and cat',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
