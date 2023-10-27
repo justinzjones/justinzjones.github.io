@@ -93,9 +93,7 @@ export default function About() {
             <p>
               A successful solution is not only the result of hard work. The work must be corrrectly focused and prioritised.
             </p>
-            <p>
-              Without a solid foundation a robust sytem cannot exist.   
-            </p>
+
 
 
           </div>
