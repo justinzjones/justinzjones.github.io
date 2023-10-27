@@ -36,36 +36,37 @@ function Tool({
 
 export const metadata = {
   title: 'Consulting',
-  description: 'Software I use, gadgets I love, and other things I recommend.',
+  description: 'Product strategy, Product planning and scoping, Product planning, Requirements elicitation, Tender Management, Vendor Management',
 }
 
 export default function Consulting() {
   return (
     <SimpleLayout
-      title="I'm available for Consulting"
-      intro="Please contact me if you would like to discuss any potential Consulting needs. I'm based in the Dallas-Fort Worth area in Texas and available on a full or part
-      time basis. I can travel at short notice."
+      title="Consulting"
+      intro="Please contact me if you would like to discuss any potential Consulting needs. I'm based in the Dallas-Fort Worth area in Texas 
+      and available on a full or part time basis. I can travel at short notice."
     >
       <div className="space-y-20">
         <ToolsSection title="Vendor deep dives">
-          <Tool title="Let me help you make good decisions">
-            I have extensive experience in researching vendors to ensure the ones shortlisted are a good fit and to mitigate risk. 
-            Alot of the research is done without requiring participation for the vendors. Being 100% independent ensures that vendors are evaluated equally. A comprehensive report will provide an indepth analysis to help guide decison making.  
+          <Tool title="Mitigate risk">
+            I have extensive experience researching vendors. This upfront investment paves the path to success. Unfortunately, lack of due diligence
+            into potential vendors is where many projects start on the wrong footing. Ensuring that potential vendors are a good fit helps to reduce 
+            risk and stress later in the cycle. It also pays dividends. I am 100% independent and impartial, ensuring that vendors are evaluated 
+            fairly and equally. A comprehensive report will provide an indepth analysis to help guide decison making.  
           </Tool>
         </ToolsSection>
         <ToolsSection title="Tendering">
           <Tool title="Tender process">
-            I've seen tenders being awarded to the wrong organisation even though they've been scored highly in the questionaire and been asked hundreds 
-            if not thousands of questions. Unfortunately, quite often the mistake will only become apparent many months later by which point it's too late to change.
-            Leveraging my experinece, reaserch, contacts and due diligence I can help avoid this situation.
+            Tendering can be a long and drawn out activity that too often doesn't result in the tender being awarded to the most appropriate 
+            organisation. Unfortunately, quite often the mistake will only become apparent many months later by which point it can feel too late 
+            to change. I can help avoid this situation by leveraging my business and technical experience, research, contacts and due diligence. 
           </Tool>
         </ToolsSection>
         <ToolsSection title="Product">
           <Tool title="Product management">
             I have over 10 years of Technical Product experience. Initially as a Developer, through to Product owner and as a Product Manager. I am available 
-            on a full or part time basis and can be involved to work as a traditional Product Manager or as a mentor and guide to help others
-            succeed in their Product role. 
-            or a   
+            on a full or part time basis and can be involved to work as a traditional Product Manager or as a mentor helping to guide others in their 
+            Product role.    
           </Tool>
         </ToolsSection>
         <ToolsSection title="User experience">
