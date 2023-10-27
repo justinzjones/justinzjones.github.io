@@ -75,7 +75,7 @@ export default function About() {
             <h2 className="text-3xl font-bold tracking-tight font text-zinc-700 dark:text-zinc-100 sm:text-4xl">Why travel technology </h2>
             <p>
               I have had a lifelong passion for travel which stemmed from growing up in an airline family. 
-              Following the advice of Steve Jobs and Warren Buffet I targeted a career in something I love.  
+              Inadvertantly, I followed the advice of Steve Jobs and Warren Buffet and went for a career in something I love.  
             </p>
             <p>
               For as long as I can recall, computers and technology were a fascination. In hindsight, working in travel tech' 
