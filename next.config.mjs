@@ -6,6 +6,9 @@ import remarkGfm from 'remark-gfm'
 const nextConfig = {
   output: 'export',
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'], 
+  images: {
+    unoptimized: true,
+  },
 }
 
 
@@ -14,10 +17,8 @@ const withMDX = nextMDX({
   options: {
     remarkPlugins: [remarkGfm],
     rehypePlugins: [rehypePrism],
-  },
-  images: {
-    unoptimized: true,
-  },
+  }
+ 
 })
 
 export default withMDX(nextConfig)
