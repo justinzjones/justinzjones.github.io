@@ -60,7 +60,7 @@ export default function Experience() {
             description="Working for a flag carrier in the Middle East has been one of my career highlights. Employed as the Ancillary Products Manager I was responsible for 
             sourcing 3rd party vendors. Every partner that we contracted was the result of an exhaustive, fair and transparent tender process, 
             overseen by Procurement. The result was a solid record of contracting with good companies and long term successful partnerships."
-            event=""
+            // event=""
             cta="blah"
           />
 
