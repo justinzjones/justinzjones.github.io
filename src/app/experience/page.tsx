@@ -43,13 +43,13 @@ function Appearance({
 export const metadata: Metadata = {
   title: 'Experience',
   description:
-    'Software analysis, development, ',
+    'Product Mgt, Systems analysis, Payments, Ecommerce, Tender Mgt, Vendor Mgt.',
 }
 
 export default function Experience() {
   return (
     <SimpleLayout
-      title="Tender Mgt, Vendor Mgt, Payments, Ecommerce, Product Mgt."
+      title="Product Mgt, Systems analysis, Payments, Ecommerce, Tender Mgt, Vendor Mgt."
       intro=""
     >
       <div className="space-y-20">
