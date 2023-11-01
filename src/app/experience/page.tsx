@@ -53,6 +53,27 @@ export default function Experience() {
       intro=""
     >
       <div className="space-y-20">
+
+      <ExperienceSection title="Product Management">
+          <Appearance
+            // href="#"
+            title="Technical Product Manager"
+            description="I have 8+ years of Technical Product Management experience. This role has been a great fit for me as it's enabled me
+            to stay in touch with my development roots, whilst also honing my skills as a Product leader."
+            cta="Listen to podcast"
+          />
+        </ExperienceSection>
+
+        <ExperienceSection title="Business Analysis">
+          <Appearance
+            // href="#"
+            title="Business Analyst"
+            description="I have 10+ years experience as a software Business analyst and also as a Business Systems Analyst. These roles have leveraged 
+            my training as a Software developer and experience as an analyst."
+            cta="Listen to podcast"
+          />
+        </ExperienceSection>
+
         <ExperienceSection title="Tender Management">
           <Appearance
             // href="#"
@@ -63,8 +84,8 @@ export default function Experience() {
             // event=""
             cta="no cta"
           />
-
         </ExperienceSection>
+
         <ExperienceSection title="Vendor Management">
           <Appearance
             // href="#"
@@ -76,15 +97,7 @@ export default function Experience() {
             cta="Listen to podcast"
           />
         </ExperienceSection>
-        <ExperienceSection title="Product Management">
-          <Appearance
-            // href="#"
-            title="Technical Product Manager"
-            description="I have 8+ years of Technical Product Management experience. This role has been a great fit for me as it's enabled me
-            to stay in touch with my development roots, whilst also honing my skills as a Product leader."
-            cta="Listen to podcast"
-          />
-        </ExperienceSection>
+        
         <ExperienceSection title="Digital Payments">
           <Appearance
             // href="#"
