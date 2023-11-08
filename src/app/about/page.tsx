@@ -84,7 +84,7 @@ export default function About() {
 
             <h2 className="text-3xl font-bold tracking-tight font text-zinc-700 dark:text-zinc-100 sm:text-4xl">Core beliefs</h2>
             <p>
-              Time and effort in, correlates positively to the quality of solution out. 
+              Time and effort in, correlates with the quality of solution out. 
               Whilst this may seem obvious it's a lesson often learned retrospectively.   
             </p>
             <p>
